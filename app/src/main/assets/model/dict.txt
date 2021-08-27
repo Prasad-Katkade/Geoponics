@@ -1,0 +1,12 @@
+Corn_leafspot
+Strawberry___Leaf_scorch
+Corn____healthy
+Tomato___Bacterial_spot
+Potato___healthy
+Tomato___healthy
+Grape___healthy
+Apple___Black_rot
+Potato___Early_blight
+Strawberry___healthy
+Apple___healthy
+Grape___Black_rot

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "68012718678",
+    "firebase_url": "https://geoponics-45bfb.firebaseio.com",
+    "project_id": "geoponics-45bfb",
+    "storage_bucket": "geoponics-45bfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68012718678:android:380b960efa5137be3219f7",
+        "android_client_info": {
+          "package_name": "com.example.geoponics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68012718678-p3671betgpcs8e638nkt5n22ul814k2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.geoponics",
+            "certificate_hash": "74602bc45b1cbadbaad219731af709bb6a7ba36f"
+          }
+        },
+        {
+          "client_id": "68012718678-a8l7ac09ihu3kdhlpp195mpeu3itaecf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxW4jnpfqgD25gRwkWBLHYa2naB1xjmxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68012718678-a8l7ac09ihu3kdhlpp195mpeu3itaecf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

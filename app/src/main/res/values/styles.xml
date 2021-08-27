@@ -1,0 +1,29 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        
+        <item name="android:windowContentTransitions">true</item>
+        
+    </style>
+    
+   <style name="customtoast">
+       <item name="stColorBackground">#53C479</item>
+       <item name="stTextBold">true</item>
+       <item name="stTextColor">#FFFFFF</item>
+       <item name="stRadius">1dp</item>
+       <item name="stIconStart">@drawable/plantlogo</item>
+   </style>
+    <style name="errortoast">
+        <item name="stColorBackground">#E15F65</item>
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stRadius">1dp</item>
+    </style>
+    
+
+
+</resources>

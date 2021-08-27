@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Buy"
+        app:cnb_backgroundColor="#27ae60"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+
+    <item
+        android:id="@+id/wallet_menu"
+        android:icon="@drawable/ic_wallet"
+        android:title="Wallet"
+        app:cnb_backgroundColor="#27ae60"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+
+    <item
+        android:id="@+id/sell_menu"
+        android:icon="@drawable/ic_sell"
+        android:title="Sell"
+        app:cnb_backgroundColor="#27ae60"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+
+    <item
+        android:id="@+id/plant_rec"
+        android:icon="@drawable/ic_plant_rec"
+        android:title="Plant Health"
+        app:cnb_backgroundColor="#27ae60"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+
+
+    <item
+        android:id="@+id/profile_menu"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"
+        app:cnb_backgroundColor="#27ae60"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+
+</menu>

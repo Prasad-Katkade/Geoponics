@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".InfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:padding="20dp"
+            android:src="@drawable/title" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:text="About This Application : " />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:text="This Prototype Application created by Students of Gokhle Education Society's R.H.Sapat College Of Enginnering, Nashik for Studying purposes.\n\nWhich Contains Following Features." />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="1) Buy Menu :" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:text="This Feature will let users to buy fresh vegetables/plants as well as Fertilizers, Pots and Gardening tools with in detail description and Cart Option" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="2) Wallet :" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:text="This Feature will let users to earn and store their *Green Points which can be redeemed while buying products. Users can earn Green Points by scanning valid  QR Code after selling their rotten vegetables."/>
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="3) Sell Menu :" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:text="This Feature will let users To Sell their products such as fresh vegetables/plants as well as Fertilizers, Pots and Gardening tools. User Can also Sell their Rotten Vegetables in exchange of virtual currency called as Green Points,These Rotten Vegetable will be picked up by our own Geo-Ponics Team member and Unique QR Code will be shown to seller(i.e user) so they can scan and earn Green Points"/>
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="4) Plant Health :" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:text="This Feature uses Machine Learning to show whether plant/vegetable is healthy or not by analysing their Leaf , User is requested to upload their plants leaf image in order to use this feature. \n*This Feature is still in development so results can vary.But for now this feature only works for these plants :\n\n1)Corn\n2)Strawberry\n3)Tomato\n4)Potato\n4)Grape\n5)Apple"/>
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="4) User Profile :" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:text="This Feature will let user to view and update their profile. It also Contains 2  additional features such as \n\n1)Currently Selling : Through which user can view or remove the products which they are currently selling. \n\n2)My Cluster:With this feature user can communicate and  see nearby peoples who are using this app"/>
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:text="About Us : " />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:text="This Application is developed by following group of students."/>
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Prasad G. Katkade."/>
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingHorizontal="5dp"
+            android:text=" Email ID : prasadkatkade008@gmail.com \n Department : Computer\n Year-div : TE-A"/>
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Roshan D. Kolhe."/>
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingHorizontal="5dp"
+            android:text=" Email ID : kolheroshan508@gmail.com \n Department : Computer\n Year-div : TE-A"/>
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Sharvari V. Tamboli."/>
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingHorizontal="5dp"
+            android:text=" Email ID : sharvaritamboli05@gmail.com \n Department : Computer\n Year-div : TE-B"/>
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Pranjal U. Nawarkar."/>
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingHorizontal="5dp"
+            android:text=" Email ID : pranjal100nawarkar@gmail.com \n Department : Computer\n Year-div : TE-B"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/leaflogo" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
