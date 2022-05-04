@@ -50,12 +50,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-              Intent intent = new Intent(MainActivity.this, Login.class);
-              Pair[] pairs = new Pair[2];
-              pairs[0] = new Pair<View,String>(logo,"logo_anim");
-              pairs[1] = new Pair<View,String>(txt,"title_anim");
-              ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.this,pairs);
-              startActivity(intent,options.toBundle());
+              Intent intent = new Intent(MainActivity.this, PlantHealth.class);
+              startActivity(intent);
+//              Pair[] pairs = new Pair[2];
+//              pairs[0] = new Pair<View,String>(logo,"logo_anim");
+//              pairs[1] = new Pair<View,String>(txt,"title_anim");
+//              ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.this,pairs);
+//              startActivity(intent,options.toBundle());
 
             }
         },4000);
